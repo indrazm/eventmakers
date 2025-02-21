@@ -16,5 +16,20 @@ export default {
       },
     },
   },
-  plugins: [heroui()],
+  plugins: [
+    heroui({
+      layout: {
+        radius: {
+          small: "0.35rem",
+          medium: "0.55rem",
+          large: "0.85rem",
+        },
+        borderWidth: {
+          small: "0.01rem",
+          medium: "0.05rem",
+          large: "0.15rem",
+        },
+      },
+    }),
+  ],
 };
